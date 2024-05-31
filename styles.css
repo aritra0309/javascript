@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-color: #c6e0ff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background-color: #c6e0ff;
+  height: fit-content;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px;
+  gap: 100px;
+  height: 250px;
+}
+
+.playerside,
+.announcer,
+.computerside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  padding: 0px 25px;
+  font-size: 18pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.announcer {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+#playerscore,
+#computerscore {
+  font-size: 40pt;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px;
+  padding: 50px 25px;
+}
+
+#rock,
+#paper,
+#scissors {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 16pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
